@@ -14,12 +14,16 @@
     <meta name="description" content="简单将我搭建Hexo博客的过程记录下来。
 1. 前提条件
 GitHub账号
+名为usrname.github.io的repo
 安装Node.js
 安装git
 
-2. 安装Hexo利用npm来安装Hexo。首先要知道Hexo有3.x和2.x的区别，Hexo官网给的应该是Hexo 3.x的安装教程，我就是按照官网的步骤来做，报错之后google来解决。
+2. 安装Hexo首先利用npm来安装Hexo：
 $ npm install -g hexo-cli
-$ npm install hexo --sa">
+$ npm install hexo --save
+安装完之后，创建博客文件夹：
+$ hexo init hysic-blog
+$ cd">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Hexo博客搭建">
 <meta property="og:url" content="http://hysic.github.io/2015/05/14/Hexo-blog-setup/index.html">
@@ -27,23 +31,31 @@ $ npm install hexo --sa">
 <meta property="og:description" content="简单将我搭建Hexo博客的过程记录下来。
 1. 前提条件
 GitHub账号
+名为usrname.github.io的repo
 安装Node.js
 安装git
 
-2. 安装Hexo利用npm来安装Hexo。首先要知道Hexo有3.x和2.x的区别，Hexo官网给的应该是Hexo 3.x的安装教程，我就是按照官网的步骤来做，报错之后google来解决。
+2. 安装Hexo首先利用npm来安装Hexo：
 $ npm install -g hexo-cli
-$ npm install hexo --sa">
+$ npm install hexo --save
+安装完之后，创建博客文件夹：
+$ hexo init hysic-blog
+$ cd">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Hexo博客搭建">
 <meta name="twitter:description" content="简单将我搭建Hexo博客的过程记录下来。
 1. 前提条件
 GitHub账号
+名为usrname.github.io的repo
 安装Node.js
 安装git
 
-2. 安装Hexo利用npm来安装Hexo。首先要知道Hexo有3.x和2.x的区别，Hexo官网给的应该是Hexo 3.x的安装教程，我就是按照官网的步骤来做，报错之后google来解决。
+2. 安装Hexo首先利用npm来安装Hexo：
 $ npm install -g hexo-cli
-$ npm install hexo --sa">
+$ npm install hexo --save
+安装完之后，创建博客文件夹：
+$ hexo init hysic-blog
+$ cd">
 <meta name="twitter:creator" content="@xzwjpku## e.g. jarkwu for https://twitter.com/jarkwu">
 
     
@@ -120,24 +132,54 @@ $ npm install hexo --sa">
 		<div id="toc" class="toc-article">
 			<strong class="toc-title">文章目录</strong>
 		
-			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-_前提条件"><span class="toc-number">1.</span> <span class="toc-text">1. 前提条件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-_安装Hexo"><span class="toc-number">2.</span> <span class="toc-text">2. 安装Hexo</span></a></li></ol>
+			<ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-_前提条件"><span class="toc-number">1.</span> <span class="toc-text">1. 前提条件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-_安装Hexo"><span class="toc-number">2.</span> <span class="toc-text">2. 安装Hexo</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-_配置Hexo"><span class="toc-number">3.</span> <span class="toc-text">3. 配置Hexo</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1_选择主题（theme）"><span class="toc-number">3.1.</span> <span class="toc-text">3.1 选择主题（theme）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2_配置Jacman主题"><span class="toc-number">3.2.</span> <span class="toc-text">3.2 配置Jacman主题</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-_撰写博文"><span class="toc-number">4.</span> <span class="toc-text">4. 撰写博文</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-_本地查看"><span class="toc-number">5.</span> <span class="toc-text">5. 本地查看</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6-_部署Hexo"><span class="toc-number">6.</span> <span class="toc-text">6. 部署Hexo</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7-_搭建Tips"><span class="toc-number">7.</span> <span class="toc-text">7. 搭建Tips</span></a></li></ol>
 		
 		</div>
 		
 		<p>简单将我搭建Hexo博客的过程记录下来。</p>
 <h1 id="1-_前提条件">1. 前提条件</h1><ul>
 <li>GitHub账号</li>
+<li>名为usrname.github.io的repo</li>
 <li>安装Node.js</li>
 <li>安装git</li>
 </ul>
-<h1 id="2-_安装Hexo">2. 安装Hexo</h1><p>利用npm来安装Hexo。首先要知道Hexo有3.x和2.x的区别，<a href="http://hexo.io/zh-cn/" target="_blank" rel="external">Hexo官网</a>给的应该是Hexo 3.x的安装教程，我就是按照官网的步骤来做，报错之后google来解决。</p>
-<p><code>$ npm install -g hexo-cli</code></p>
-<p><code>$ npm install hexo --save</code></p>
-<p>安装完之后，创建博客文件夹</p>
+<h1 id="2-_安装Hexo">2. 安装Hexo</h1><p>首先利用npm来安装Hexo：</p>
+<pre><code>$ npm <span class="operator"><span class="keyword">install</span> -g hexo-cli
+$ npm <span class="keyword">install</span> hexo <span class="comment">--save</span></span>
+</code></pre><p>安装完之后，创建博客文件夹：</p>
 <pre><code><span class="variable">$ </span>hexo init hysic-blog
 <span class="variable">$ </span>cd hysic-blog
 <span class="variable">$ </span>npm install
-</code></pre><p>然后</p>
+</code></pre><h1 id="3-_配置Hexo">3. 配置Hexo</h1><p>打开根目录下的<code>_config.yml</code>对Hexo进行设置。我主要修改了<code>title</code>、<code>subtitle</code>、<code>author</code>、<code>language</code>、<code>url</code>、<code>theme</code>和<code>deploy</code>，前5个的功能很容易理解，主题（<code>theme</code>）是Hexo很重要的东西，相当于一系列css和js的组合，博客的颜值全靠它。</p>
+<h2 id="3-1_选择主题（theme）">3.1 选择主题（theme）</h2><p>我目前选择的主题是<a href="https://github.com/wuchong/jacman" target="_blank" rel="external">Jacman</a>，<a href="http://hexo.io/themes/" target="_blank" rel="external">Hexo官网</a>上给出了14个主题，<a href="http://www.zhihu.com/question/24422335" target="_blank" rel="external">这个知乎问题</a>下面有很多推荐的主题，我就是在这里发现<a href="https://github.com/wuchong/jacman" target="_blank" rel="external">Jacman</a>的（虽然Hexo主页上也有）。首先下载Jacman主题：</p>
+<p><code>$ git clone https://github.com/wuchong/jacman.git themes/jacman</code></p>
+<p>下载完成后将<code>_config.yml</code>中的<code>theme</code>设置成<code>jacman</code>即可。</p>
+<p><strong>注意：修改<code>_config.yml</code>时，冒号<code>:</code>后面一定要加一个空格。</strong></p>
+<h2 id="3-2_配置Jacman主题">3.2 配置Jacman主题</h2><p>打开<code>/themes/jacman/</code>目录下的<code>_config.yml</code>文件，对Jacman主题进行设置。我目前只改了<code>author_img</code>和<code>Author information</code>中的几项，等以后参照<a href="https://github.com/wuchong/jacman/wiki/%E9%85%8D%E7%BD%AE%E6%8C%87%E5%8D%97" target="_blank" rel="external">Jacman配置指南</a>继续设置。</p>
+<h1 id="4-_撰写博文">4. 撰写博文</h1><p>创建新博文：</p>
+<p><code>$ hexo new blog-name</code></p>
+<p>在<code>\source\_posts</code>目录下生成<code>blog-name.md</code>的文件，<code>md</code>文件采用<code>Markdown</code>语法，我正在参考<a href="http://www.zhihu.com/question/20409634" target="_blank" rel="external">知乎这个问题</a>下面的回答学习中。</p>
+<h1 id="5-_本地查看">5. 本地查看</h1><p><code>$ hexo server</code></p>
+<p>可以在<code>http://localhost:4000/</code>本地查看博客。</p>
+<h1 id="6-_部署Hexo">6. 部署Hexo</h1><p>部署就是把你写的博文和你选择的主题发布到你在互联网上的个人博客中。首先要在根目录<code>_config.yml</code>文件中设置部署方式：</p>
+<pre><code><span class="attribute">deploy</span>: 
+  <span class="attribute">type</span>: git
+  <span class="attribute">repository</span>: git<span class="variable">@github</span>.<span class="attribute">com</span>:hysic/hysic.github.io.git
+  <span class="attribute">branch</span>: master
+</code></pre><p>然后安装Hexo的git deployer：</p>
+<p><code>$ npm install hexo-deployer-git --save</code></p>
+<p>最后一步部署：</p>
+<pre><code><span class="variable">$ </span>hexo generate
+<span class="variable">$ </span>hexo deploy
+</code></pre><p>以上两步可以简写成<code>hexo g</code>和<code>hexo d</code>。期间需要输入GitHub账号和密码，提示<code>INFO  Deploy done: git</code>说明部署完成，可以把<code>hysic.github.io</code><br>这个博客地址告诉自己的亲朋好友了。</p>
+<h1 id="7-_搭建Tips">7. 搭建Tips</h1><ul>
+<li><p>首先要知道Hexo有3.x和2.x的区别，<a href="http://hexo.io/zh-cn/" target="_blank" rel="external">Hexo官网</a>给的应该是Hexo 3.x的安装教程，但网上很多教程都是基于Hexo 2.x的，所以步骤可能会有一些不同。</p>
+</li>
+<li><p>安装和配置过程不可避免会有一些报错，重点是不要慌，相信李笑来老师那句“你并不孤独。”，把报错内容放到google搜索框中，回车，解决方法很可能就出现了。</p>
+</li>
+<li><p>如果遇到莫名其妙的问题，先删除根目录的<code>.deploy_git</code>文件夹，再执行<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code>命令清除缓存文件重新生成静态文静并<a href="http://www.isetsuna.com/hexo/deploy-github-gitcafe/" target="_blank" rel="external">部署</a>。</p>
+</li>
+</ul>
   
 	</div>
 		<footer class="article-footer clearfix">
@@ -146,7 +188,7 @@ $ npm install hexo --sa">
 
   <div class="article-tags">
   
-  <span></span> <a href="/tags/Hexo-博客搭建/">Hexo, 博客搭建</a>
+  <span></span> <a href="/tags/Hexo/">Hexo</a>
   </div>
 
 </div>
@@ -166,19 +208,6 @@ $ npm install hexo --sa">
    	       
 	</article>
 	
-<nav class="article-nav clearfix">
- 
- <div class="prev" >
- <a href="/2015/05/14/why-I-start-blogging/" title="why-I-start-blogging">
-  <strong>上一篇：</strong><br/>
-  <span>
-  why-I-start-blogging</span>
-</a>
-</div>
-
-
-</nav>
-
 	
 
 </div>  
@@ -187,7 +216,7 @@ $ npm install hexo --sa">
   <div id="toc" class="toc-aside">
   <strong class="toc-title">文章目录</strong>
  
- <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-_前提条件"><span class="toc-number">1.</span> <span class="toc-text">1. 前提条件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-_安装Hexo"><span class="toc-number">2.</span> <span class="toc-text">2. 安装Hexo</span></a></li></ol>
+ <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-_前提条件"><span class="toc-number">1.</span> <span class="toc-text">1. 前提条件</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-_安装Hexo"><span class="toc-number">2.</span> <span class="toc-text">2. 安装Hexo</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#3-_配置Hexo"><span class="toc-number">3.</span> <span class="toc-text">3. 配置Hexo</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#3-1_选择主题（theme）"><span class="toc-number">3.1.</span> <span class="toc-text">3.1 选择主题（theme）</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#3-2_配置Jacman主题"><span class="toc-number">3.2.</span> <span class="toc-text">3.2 配置Jacman主题</span></a></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#4-_撰写博文"><span class="toc-number">4.</span> <span class="toc-text">4. 撰写博文</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#5-_本地查看"><span class="toc-number">5.</span> <span class="toc-text">5. 本地查看</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#6-_部署Hexo"><span class="toc-number">6.</span> <span class="toc-text">6. 部署Hexo</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#7-_搭建Tips"><span class="toc-number">7.</span> <span class="toc-text">7. 搭建Tips</span></a></li></ol>
  
   </div>
 
@@ -203,7 +232,7 @@ $ npm install hexo --sa">
 		<ul class="clearfix">
 		
 			
-				<li><a href="/tags/Hexo-博客搭建/" title="Hexo, 博客搭建">Hexo, 博客搭建<sup>1</sup></a></li>
+				<li><a href="/tags/Hexo/" title="Hexo">Hexo<sup>1</sup></a></li>
 			
 		
 		</ul>
